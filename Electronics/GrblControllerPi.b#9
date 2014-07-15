@@ -278,6 +278,11 @@
 <text x="11.43" y="38.4175" size="1.27" layer="255" font="vector" ratio="14">5v</text>
 <text x="3.4925" y="48.5775" size="1.27" layer="255" font="vector" ratio="14" rot="R270">gnd</text>
 <text x="6.35" y="45.085" size="1.27" layer="255" font="vector" ratio="14" rot="R90">sig</text>
+<wire x1="15.24" y1="8.5725" x2="16.51" y2="8.5725" width="0.4064" layer="255"/>
+<wire x1="36.195" y1="8.5725" x2="37.465" y2="8.5725" width="0.4064" layer="255"/>
+<wire x1="57.4675" y1="8.5725" x2="58.42" y2="8.5725" width="0.4064" layer="255"/>
+<text x="50.8" y="32.7025" size="1.778" layer="255" font="vector" ratio="14">ATMEGA328P</text>
+<text x="26.9875" y="22.5425" size="1.778" layer="255" font="vector" ratio="14">POWER</text>
 </plain>
 <libraries>
 <library name="raspberry">

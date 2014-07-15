@@ -385,12 +385,8 @@ This library stands under the &lt;a href="http://www.ohwr.org/projects/cernohl/w
 <pad name="P5_3" x="7.62" y="-2.54" drill="1"/>
 <pad name="P5_6" x="10.16" y="-5.08" drill="1"/>
 <pad name="P5_8" x="12.7" y="-5.08" drill="1"/>
-<pad name="P6_1" x="25.4" y="-48.26" drill="1"/>
-<pad name="P6_2" x="25.4" y="-45.72" drill="1"/>
-<wire x1="24.13" y1="-44.45" x2="26.67" y2="-44.45" width="0.127" layer="21"/>
-<wire x1="26.67" y1="-44.45" x2="26.67" y2="-49.53" width="0.127" layer="21"/>
-<wire x1="26.67" y1="-49.53" x2="24.13" y2="-49.53" width="0.127" layer="21"/>
-<wire x1="24.13" y1="-49.53" x2="24.13" y2="-44.45" width="0.127" layer="21"/>
+<pad name="P6_1" x="-1.27" y="-49.53" drill="1"/>
+<pad name="P6_2" x="1.27" y="-49.53" drill="1"/>
 <wire x1="3.81" y1="-1.27" x2="3.81" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-6.35" x2="13.97" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="13.97" y1="-6.35" x2="13.97" y2="-1.27" width="0.127" layer="21"/>
@@ -399,9 +395,6 @@ This library stands under the &lt;a href="http://www.ohwr.org/projects/cernohl/w
 <text x="80.4661375" y="-20.014021875" size="1.016" layer="51" rot="R90" align="bottom-center">(Host)</text>
 <text x="42.164" y="-21.844" size="1.27" layer="51" align="bottom-center">56x85mm</text>
 <text x="42.164" y="-23.876" size="1.27" layer="51" align="bottom-center">H=16mm</text>
-<text x="27.1876" y="-45.7281" size="0.4064" layer="51" align="center-left">GND</text>
-<text x="27.1876" y="-48.2681" size="0.4064" layer="51" align="center-left">Reset</text>
-<text x="23.876" y="-48.26" size="1.27" layer="21" ratio="10" align="center-right">1</text>
 <wire x1="8.6" y1="-11.5" x2="11.1" y2="-11.4746" width="0.127" layer="51"/>
 <wire x1="11.1" y1="-11.4746" x2="11.1" y2="-33.7" width="0.127" layer="51"/>
 <wire x1="11.1" y1="-33.7" x2="8.6" y2="-33.7" width="0.127" layer="51"/>
@@ -432,7 +425,6 @@ This library stands under the &lt;a href="http://www.ohwr.org/projects/cernohl/w
 <wire x1="82.55" y1="-27.3304" x2="82.55" y2="-32.7406" width="0" layer="20"/>
 <wire x1="82.55" y1="-32.7406" x2="61.3664" y2="-32.7406" width="0" layer="20"/>
 <wire x1="61.3664" y1="-32.7406" x2="61.3664" y2="-50.7492" width="0" layer="20"/>
-<wire x1="61.3664" y1="-50.7492" x2="-2.4384" y2="-50.7492" width="0" layer="20"/>
 <wire x1="-2.4384" y1="-50.7492" x2="-2.413" y2="5.334" width="0" layer="20"/>
 <hole x="23.1" y="-32.72" drill="2.9"/>
 <hole x="77.57" y="-7.21" drill="2.9"/>
@@ -3486,7 +3478,7 @@ http://dangerousprototypes.com</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="raspberry" deviceset="RPI-B-V2" device="SHIELD"/>
+<part name="U$1" library="raspberry" deviceset="RPI-B-V2" device="SHIELD" value="RPI-B-V2SHIELD"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M05X2" device="SHD_LOCK" value="M05X2SHD_LOCK"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M05X2" device="SHD_LOCK" value="M05X2SHD_LOCK"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M05X2" device="SHD_LOCK" value="M05X2SHD_LOCK"/>
@@ -3860,7 +3852,7 @@ http://dangerousprototypes.com</description>
 <wire x1="132.08" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RESET" class="0">
+<net name="MCURESET" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC6(/RESET/PCI14)"/>
 <wire x1="132.08" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
@@ -4002,6 +3994,14 @@ http://dangerousprototypes.com</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <junction x="76.2" y="35.56"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="RESET"/>
+<wire x1="-5.08" y1="38.1" x2="-7.62" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="38.1" x2="-8.89" y2="39.37" width="0.1524" layer="91"/>
+<label x="-11.43" y="39.37" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

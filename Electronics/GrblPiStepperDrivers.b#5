@@ -752,6 +752,7 @@ design rules under a new name.</description>
 <wire x1="34.925" y1="25.0825" x2="34.925" y2="14.9225" width="1.016" layer="1"/>
 <wire x1="34.925" y1="14.9225" x2="40.9575" y2="8.89" width="1.016" layer="1"/>
 <wire x1="40.9575" y1="8.89" x2="40.9575" y2="6.477" width="1.016" layer="1"/>
+<wire x1="2.8575" y1="20.0025" x2="2.8575" y2="20.3275" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="R10" pad="1"/>

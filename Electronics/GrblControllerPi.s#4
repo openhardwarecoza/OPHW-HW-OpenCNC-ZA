@@ -3496,6 +3496,7 @@ http://dangerousprototypes.com</description>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M03X2" device="SHROUD"/>
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
+<part name="JP6" library="SparkFun-Connectors" deviceset="M03X2" device="SHROUD"/>
 </parts>
 <sheets>
 <sheet>
@@ -3520,6 +3521,7 @@ http://dangerousprototypes.com</description>
 <instance part="JP5" gate="G$1" x="231.14" y="-44.45" rot="R180"/>
 <instance part="H1" gate="G$1" x="196.85" y="-46.99"/>
 <instance part="H2" gate="G$1" x="196.85" y="-40.64"/>
+<instance part="JP6" gate="G$1" x="231.14" y="54.61"/>
 </instances>
 <busses>
 </busses>
@@ -3742,36 +3744,42 @@ http://dangerousprototypes.com</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="(PCI13/ADC5/SCL)PC5"/>
 <wire x1="187.96" y1="27.94" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="194.31" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(PCI12/ADC4/SDA)PC4"/>
 <wire x1="187.96" y1="30.48" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
+<label x="194.31" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(PCI11/ADC3)PC3"/>
 <wire x1="187.96" y1="33.02" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
+<label x="194.31" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(PCI10/ADC2)PC2"/>
 <wire x1="187.96" y1="35.56" x2="200.66" y2="35.56" width="0.1524" layer="91"/>
+<label x="194.31" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(PCI9/ADC1)PC1"/>
 <wire x1="187.96" y1="38.1" x2="200.66" y2="38.1" width="0.1524" layer="91"/>
+<label x="194.31" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(PCI8/ADC0)PC0"/>
 <wire x1="187.96" y1="40.64" x2="200.66" y2="40.64" width="0.1524" layer="91"/>
+<label x="194.31" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
@@ -4002,6 +4010,48 @@ http://dangerousprototypes.com</description>
 <wire x1="-5.08" y1="38.1" x2="-7.62" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="38.1" x2="-8.89" y2="39.37" width="0.1524" layer="91"/>
 <label x="-11.43" y="39.37" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="57.15" x2="220.98" y2="57.15" width="0.1524" layer="91"/>
+<label x="218.44" y="57.15" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="JP6" gate="G$1" pin="3"/>
+<wire x1="223.52" y1="54.61" x2="220.98" y2="54.61" width="0.1524" layer="91"/>
+<label x="218.44" y="54.61" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="JP6" gate="G$1" pin="5"/>
+<wire x1="223.52" y1="52.07" x2="220.98" y2="52.07" width="0.1524" layer="91"/>
+<label x="218.44" y="52.07" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="JP6" gate="G$1" pin="6"/>
+<wire x1="238.76" y1="52.07" x2="241.3" y2="52.07" width="0.1524" layer="91"/>
+<label x="241.3" y="52.07" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="JP6" gate="G$1" pin="4"/>
+<wire x1="238.76" y1="54.61" x2="241.3" y2="54.61" width="0.1524" layer="91"/>
+<label x="241.3" y="54.61" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="JP6" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="57.15" x2="241.3" y2="57.15" width="0.1524" layer="91"/>
+<label x="241.3" y="57.15" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

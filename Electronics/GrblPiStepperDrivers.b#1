@@ -242,7 +242,6 @@
 <text x="32.0675" y="20.32" size="2.54" layer="255" font="vector" ratio="18">Stepper</text>
 <text x="33.655" y="18.0975" size="2.54" layer="255" font="vector" ratio="18">Driver</text>
 <wire x1="3.4925" y1="22.225" x2="3.175" y2="22.225" width="0.254" layer="255"/>
-<wire x1="3.175" y1="22.225" x2="3.175" y2="29.21" width="0.254" layer="255"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">

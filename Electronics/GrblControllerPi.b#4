@@ -603,6 +603,7 @@
 <wire x1="22.5425" y1="26.9875" x2="29.845" y2="26.9875" width="0.4064" layer="255"/>
 <wire x1="22.5425" y1="23.8125" x2="29.845" y2="23.8125" width="0.4064" layer="255"/>
 <wire x1="15.24" y1="31.75" x2="17.78" y2="31.75" width="0.4064" layer="255"/>
+<text x="53.6575" y="40.9575" size="1.9304" layer="255" font="vector" ratio="14">CC-BY-NC</text>
 </plain>
 <libraries>
 <library name="raspberry">

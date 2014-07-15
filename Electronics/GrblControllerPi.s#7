@@ -3995,7 +3995,7 @@ http://dangerousprototypes.com</description>
 <label x="-17.78" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="TX3V3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="UART0_RXD/GPIO15"/>
 <wire x1="58.42" y1="35.56" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
