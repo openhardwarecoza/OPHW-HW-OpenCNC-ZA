@@ -385,8 +385,8 @@ This library stands under the &lt;a href="http://www.ohwr.org/projects/cernohl/w
 <pad name="P5_3" x="7.62" y="-2.54" drill="1"/>
 <pad name="P5_6" x="10.16" y="-5.08" drill="1"/>
 <pad name="P5_8" x="12.7" y="-5.08" drill="1"/>
-<pad name="P6_1" x="-1.27" y="-49.53" drill="1"/>
-<pad name="P6_2" x="1.27" y="-49.53" drill="1"/>
+<pad name="P6_1" x="35.56" y="2.54" drill="1"/>
+<pad name="P6_2" x="35.56" y="0" drill="1"/>
 <wire x1="3.81" y1="-1.27" x2="3.81" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-6.35" x2="13.97" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="13.97" y1="-6.35" x2="13.97" y2="-1.27" width="0.127" layer="21"/>

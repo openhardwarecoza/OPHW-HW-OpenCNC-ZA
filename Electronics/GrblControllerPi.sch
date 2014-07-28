@@ -4700,109 +4700,6 @@ http://dangerousprototypes.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="OpenHardware.co.za">
-<description>&lt;b&gt;OpenHardware.co.za&lt;/b&gt;&lt;p&gt;
-A Collection of part verified to be sourcable in South Africa</description>
-<packages>
-<package name="BUCKBOOST">
-<wire x1="0" y1="0" x2="48.5" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="23" width="0.127" layer="21"/>
-<wire x1="0" y1="23" x2="48.5" y2="23" width="0.127" layer="21"/>
-<wire x1="48.5" y1="0" x2="48.5" y2="23" width="0.127" layer="21"/>
-<hole x="8" y="20" drill="3.2"/>
-<hole x="40" y="3.5" drill="3.2"/>
-<pad name="IN-" x="2" y="2" drill="0.8" diameter="1.9304" shape="square"/>
-<pad name="IN+" x="2" y="21" drill="0.8" diameter="1.9304" shape="square"/>
-<pad name="OU+" x="46.5" y="21" drill="0.8" diameter="1.9304" shape="square"/>
-<pad name="OUT-" x="46.5" y="2" drill="0.8" diameter="1.9304" shape="square"/>
-<circle x="6" y="12" radius="4.123103125" width="0.127" layer="21"/>
-<wire x1="12" y1="21" x2="12" y2="10" width="0.127" layer="21"/>
-<wire x1="12" y1="10" x2="13" y2="10" width="0.127" layer="21"/>
-<wire x1="13" y1="10" x2="14" y2="10" width="0.127" layer="21"/>
-<wire x1="14" y1="10" x2="15" y2="10" width="0.127" layer="21"/>
-<wire x1="15" y1="10" x2="16" y2="10" width="0.127" layer="21"/>
-<wire x1="16" y1="10" x2="17" y2="10" width="0.127" layer="21"/>
-<wire x1="17" y1="10" x2="18" y2="10" width="0.127" layer="21"/>
-<wire x1="18" y1="10" x2="19" y2="10" width="0.127" layer="21"/>
-<wire x1="19" y1="10" x2="20" y2="10" width="0.127" layer="21"/>
-<wire x1="20" y1="10" x2="21" y2="10" width="0.127" layer="21"/>
-<wire x1="21" y1="10" x2="22" y2="10" width="0.127" layer="21"/>
-<wire x1="22" y1="10" x2="23" y2="10" width="0.127" layer="21"/>
-<wire x1="23" y1="10" x2="23" y2="21" width="0.127" layer="21"/>
-<wire x1="23" y1="21" x2="12" y2="21" width="0.127" layer="21"/>
-<wire x1="25" y1="21" x2="25" y2="17" width="0.127" layer="21"/>
-<wire x1="25" y1="17" x2="40" y2="17" width="0.127" layer="21"/>
-<wire x1="40" y1="17" x2="40" y2="21" width="0.127" layer="21"/>
-<wire x1="40" y1="21" x2="25" y2="21" width="0.127" layer="21"/>
-<wire x1="37" y1="2" x2="37" y2="15" width="0.127" layer="21"/>
-<wire x1="37" y1="15" x2="25" y2="15" width="0.127" layer="21"/>
-<wire x1="25" y1="15" x2="25" y2="2" width="0.127" layer="21"/>
-<wire x1="25" y1="2" x2="37" y2="2" width="0.127" layer="21"/>
-<wire x1="22" y1="10" x2="22" y2="6" width="0.127" layer="21"/>
-<wire x1="20" y1="10" x2="20" y2="6" width="0.127" layer="21"/>
-<wire x1="18" y1="10" x2="18" y2="6" width="0.127" layer="21"/>
-<wire x1="16" y1="10" x2="16" y2="6" width="0.127" layer="21"/>
-<wire x1="14" y1="10" x2="14" y2="6" width="0.127" layer="21"/>
-<wire x1="13" y1="10" x2="13" y2="6" width="0.127" layer="21"/>
-<wire x1="15" y1="10" x2="15" y2="6" width="0.127" layer="21"/>
-<wire x1="17" y1="10" x2="17" y2="6" width="0.127" layer="21"/>
-<wire x1="19" y1="10" x2="19" y2="6" width="0.127" layer="21"/>
-<wire x1="21" y1="10" x2="21" y2="6" width="0.127" layer="21"/>
-<wire x1="13" y1="6" x2="14" y2="6" width="0.127" layer="21"/>
-<wire x1="15" y1="6" x2="16" y2="6" width="0.127" layer="21"/>
-<wire x1="17" y1="6" x2="18" y2="6" width="0.127" layer="21"/>
-<wire x1="19" y1="6" x2="20" y2="6" width="0.127" layer="21"/>
-<wire x1="21" y1="6" x2="22" y2="6" width="0.127" layer="21"/>
-<wire x1="8" y1="4" x2="16" y2="4" width="0.127" layer="21"/>
-<wire x1="16" y1="4" x2="16" y2="2" width="0.127" layer="21"/>
-<wire x1="16" y1="2" x2="8" y2="2" width="0.127" layer="21"/>
-<wire x1="8" y1="2" x2="8" y2="4" width="0.127" layer="21"/>
-<circle x="43" y="12" radius="4.123103125" width="0.127" layer="21"/>
-<text x="1" y="24" size="1.27" layer="21">&gt;Name</text>
-<text x="43" y="24" size="1.27" layer="21">&gt;Value</text>
-<text x="4" y="19" size="1.27" layer="21" rot="R180">IN+</text>
-<text x="1" y="4" size="1.27" layer="21">IN-</text>
-<text x="43" y="18" size="1.27" layer="21">OUT+</text>
-<text x="44" y="4" size="1.27" layer="21">OUT-</text>
-</package>
-</packages>
-<symbols>
-<symbol name="BUCKBOOST">
-<wire x1="-68.58" y1="27.94" x2="-68.58" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-68.58" y1="15.24" x2="-53.34" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-53.34" y1="15.24" x2="-53.34" y2="27.94" width="0.254" layer="94"/>
-<wire x1="-53.34" y1="27.94" x2="-68.58" y2="27.94" width="0.254" layer="94"/>
-<text x="-66.04" y="20.32" size="1.27" layer="95">DC MODULE</text>
-<pin name="IN+" x="-73.66" y="25.4" length="middle" direction="pwr"/>
-<pin name="IN-" x="-73.66" y="17.78" length="middle"/>
-<pin name="OUT+" x="-48.26" y="25.4" length="middle" direction="pwr" rot="R180"/>
-<pin name="OUT-" x="-48.26" y="17.78" length="middle" rot="R180"/>
-<text x="-68.58" y="30.48" size="1.27" layer="95">&gt;NAME</text>
-<text x="-68.58" y="27.94" size="1.27" layer="95">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BUCKBOOST" prefix="DC" uservalue="yes">
-<description>Ebay-style LM2596 Buck/Boost Switchmode Convert modules</description>
-<gates>
-<gate name="G$1" symbol="BUCKBOOST" x="58.42" y="-20.32"/>
-</gates>
-<devices>
-<device name="" package="BUCKBOOST">
-<connects>
-<connect gate="G$1" pin="IN+" pad="IN+"/>
-<connect gate="G$1" pin="IN-" pad="IN-"/>
-<connect gate="G$1" pin="OUT+" pad="OU+"/>
-<connect gate="G$1" pin="OUT-" pad="OUT-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4834,7 +4731,6 @@ A Collection of part verified to be sourcable in South Africa</description>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M03X2" device="SHROUD"/>
 <part name="R4" library="dp_devices" deviceset="RESISTOR" device="-1206" value="1K"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_1206"/>
-<part name="DC1" library="OpenHardware.co.za" deviceset="BUCKBOOST" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4862,7 +4758,6 @@ A Collection of part verified to be sourcable in South Africa</description>
 <instance part="JP6" gate="G$1" x="231.14" y="54.61"/>
 <instance part="R4" gate="G$1" x="40.64" y="-29.21" rot="R180"/>
 <instance part="LED1" gate="G$1" x="49.53" y="-29.21" rot="R90"/>
-<instance part="DC1" gate="G$1" x="157.48" y="-48.26"/>
 </instances>
 <busses>
 </busses>
