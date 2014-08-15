@@ -8218,6 +8218,9 @@
 <wire x1="17.2847" y1="55.686959375" x2="17.2847" y2="55.590440625" width="0.254" layer="255"/>
 <text x="20.9296" y="51.526440625" size="0.8128" layer="255" font="vector" ratio="18" rot="R90">560R</text>
 <text x="20.88641875" y="57.355740625" size="0.8128" layer="255" font="vector" ratio="18" rot="R90">220R</text>
+<text x="56.29148125" y="63.59398125" size="0.8128" layer="255" font="vector" ratio="18">3.3V</text>
+<text x="64.24421875" y="63.5" size="0.8128" layer="255" font="vector" ratio="18">5V</text>
+<text x="56.7436" y="65.897759375" size="0.8128" layer="255" font="vector" ratio="18">I2C VOLTAGE</text>
 </plain>
 <libraries>
 <library name="FLYFISH">
@@ -10588,13 +10591,13 @@ distributor Schukat</description>
 </element>
 <element name="R6" library="dp_devices" package="R1206" value="10K" x="121.645" y="54.09"/>
 <element name="R7" library="dp_devices" package="R1206" value="10K" x="121.645" y="57.5825"/>
-<element name="5V-TERM" library="con-wago-500" package="W237-103" value="" x="8.9125" y="68.66" rot="R270">
+<element name="5V-TERM" library="con-wago-500" package="W237-103" value="5V" x="8.9125" y="68.66" rot="R270">
 <attribute name="OC_NEWARK" value="18M7116" x="8.9125" y="68.66" size="1.27" layer="27" ratio="16" rot="R270" display="off"/>
 <attribute name="MPN" value="237-103" x="8.9125" y="68.66" size="1.27" layer="27" ratio="16" rot="R270" display="off"/>
 <attribute name="MF" value="" x="8.9125" y="68.66" size="1.27" layer="27" ratio="16" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="8.9125" y="68.66" size="1.27" layer="27" ratio="16" rot="R270" display="off"/>
 </element>
-<element name="GND" library="con-wago-500" package="W237-103" value="" x="8.9125" y="84.92" rot="R270">
+<element name="GND" library="con-wago-500" package="W237-103" value="GND" x="8.9125" y="84.92" rot="R270">
 <attribute name="OC_NEWARK" value="18M7116" x="8.9125" y="84.92" size="1.27" layer="27" ratio="16" rot="R270" display="off"/>
 <attribute name="MPN" value="237-103" x="8.9125" y="84.92" size="1.27" layer="27" ratio="16" rot="R270" display="off"/>
 <attribute name="MF" value="" x="8.9125" y="84.92" size="1.27" layer="27" ratio="16" rot="R270" display="off"/>
@@ -10622,7 +10625,7 @@ distributor Schukat</description>
 <element name="XLED3" library="adafruit" package="CHIPLED_1206" value="" x="58.8" y="25.05" rot="R90"/>
 <element name="C11" library="rcl" package="153CLV-0405" value="" x="73.05" y="86.7" rot="R270"/>
 <element name="DC1" library="OpenHardware.co.za" package="BUCKBOOST" value="" x="3.45" y="24.75"/>
-<element name="12VIN" library="con-wago-500" package="W237-102" value="" x="8.7" y="55.5" rot="R270">
+<element name="12VIN" library="con-wago-500" package="W237-102" value="12v in" x="8.7" y="55.5" rot="R270">
 <attribute name="OC_NEWARK" value="70K9898" x="8.7" y="55.5" size="1.778" layer="27" ratio="20" rot="R270" display="off"/>
 <attribute name="MPN" value="237-102" x="8.7" y="55.5" size="1.778" layer="27" ratio="20" rot="R270" display="off"/>
 <attribute name="MF" value="" x="8.7" y="55.5" size="1.778" layer="27" ratio="20" rot="R270" display="off"/>
@@ -11244,6 +11247,41 @@ distributor Schukat</description>
 </signal>
 <signal name="GPIO13">
 <contactref element="K1" pad="33"/>
+<contactref element="JP4" pad="6"/>
+<wire x1="118.585" y1="77.71" x2="118.585" y2="78.06438125" width="0.4064" layer="16"/>
+<wire x1="118.585" y1="78.06438125" x2="119.9261" y2="79.40548125" width="0.4064" layer="16"/>
+<wire x1="119.9261" y1="79.40548125" x2="119.9261" y2="81.066640625" width="0.4064" layer="16"/>
+<wire x1="119.9261" y1="81.066640625" x2="118.996459375" y2="81.99628125" width="0.4064" layer="16"/>
+<wire x1="118.996459375" y1="81.99628125" x2="118.424959375" y2="81.99628125" width="0.4064" layer="16"/>
+<wire x1="118.424959375" y1="81.99628125" x2="118.1862" y2="82.235040625" width="0.4064" layer="16"/>
+<wire x1="118.1862" y1="82.235040625" x2="118.1862" y2="88.2116625" width="0.4064" layer="16"/>
+<wire x1="118.1862" y1="88.2116625" x2="117.94998125" y2="88.44788125" width="0.4064" layer="16"/>
+<wire x1="117.94998125" y1="88.44788125" x2="117.94998125" y2="94.543878125" width="0.4064" layer="16"/>
+<wire x1="117.94998125" y1="94.543878125" x2="116.138959375" y2="96.3549" width="0.4064" layer="16"/>
+<wire x1="116.138959375" y1="96.3549" x2="96.337121875" y2="96.3549" width="0.4064" layer="16"/>
+<wire x1="96.337121875" y1="96.3549" x2="94.41688125" y2="94.434659375" width="0.4064" layer="16"/>
+<wire x1="94.41688125" y1="94.434659375" x2="89.834721875" y2="94.434659375" width="0.4064" layer="16"/>
+<wire x1="89.834721875" y1="94.434659375" x2="89.14638125" y2="95.123" width="0.4064" layer="16"/>
+<wire x1="89.14638125" y1="95.123" x2="83.893659375" y2="95.123" width="0.4064" layer="16"/>
+<wire x1="83.893659375" y1="95.123" x2="83.880959375" y2="95.1357" width="0.4064" layer="16"/>
+<via x="83.880959375" y="95.1357" extent="1-16" drill="0.6" diameter="0.4064" shape="square"/>
+<wire x1="83.880959375" y1="95.1357" x2="79.580740625" y2="95.1357" width="0.4064" layer="1"/>
+<wire x1="35.36441875" y1="97.142303125" x2="35.36441875" y2="93.662503125" width="0.4064" layer="1"/>
+<wire x1="35.36441875" y1="93.662503125" x2="37.95268125" y2="91.074240625" width="0.4064" layer="1"/>
+<wire x1="37.95268125" y1="91.074240625" x2="46.073059375" y2="91.074240625" width="0.4064" layer="1"/>
+<wire x1="46.073059375" y1="91.074240625" x2="46.555659375" y2="90.591640625" width="0.4064" layer="1"/>
+<via x="46.555659375" y="90.591640625" extent="1-16" drill="0.6" diameter="0.4064" shape="square"/>
+<wire x1="46.555659375" y1="90.591640625" x2="62.79388125" y2="90.591640625" width="0.4064" layer="16"/>
+<wire x1="62.79388125" y1="90.591640625" x2="64.137540625" y2="91.9353" width="0.4064" layer="16"/>
+<wire x1="64.137540625" y1="91.9353" x2="76.370178125" y2="91.9353" width="0.4064" layer="16"/>
+<wire x1="76.370178125" y1="91.9353" x2="78.026259375" y2="93.59138125" width="0.4064" layer="16"/>
+<wire x1="78.026259375" y1="93.59138125" x2="78.026259375" y2="94.797878125" width="0.4064" layer="16"/>
+<wire x1="78.026259375" y1="94.797878125" x2="78.4225" y2="95.19411875" width="0.4064" layer="16"/>
+<wire x1="78.4225" y1="95.19411875" x2="79.1184625" y2="95.196659375" width="0.4064" layer="16"/>
+<wire x1="79.1184625" y1="95.196659375" x2="79.217521875" y2="95.102678125" width="0.4064" layer="16"/>
+<via x="79.217521875" y="95.102678125" extent="1-16" drill="0.6" diameter="0.4064"/>
+<wire x1="79.217521875" y1="95.102678125" x2="79.5401" y2="95.095059375" width="0.4064" layer="1"/>
+<wire x1="79.5401" y1="95.095059375" x2="79.580740625" y2="95.1357" width="0.4064" layer="1"/>
 </signal>
 <signal name="GPIO19">
 <contactref element="K1" pad="35"/>
@@ -11352,7 +11390,6 @@ distributor Schukat</description>
 <wire x1="7.8125" y1="68.85" x2="7.6225" y2="68.66" width="1.27" layer="1"/>
 <contactref element="JP5" pad="1"/>
 <wire x1="77.61" y1="83.4" x2="77.91" y2="83.7" width="0.8128" layer="1"/>
-<contactref element="JP4" pad="2"/>
 <contactref element="R23" pad="A"/>
 <contactref element="R24" pad="1"/>
 <wire x1="52.938075" y1="54.370440625" x2="52.938075" y2="57.459275" width="1.4224" layer="1"/>
@@ -11413,7 +11450,6 @@ distributor Schukat</description>
 <wire x1="23.980140625" y1="94.109540625" x2="24.3586" y2="94.109540625" width="0.4064" layer="1"/>
 <wire x1="24.3586" y1="94.109540625" x2="25.118059375" y2="94.869" width="0.4064" layer="1"/>
 <wire x1="25.118059375" y1="94.869" x2="25.118059375" y2="97.05594375" width="0.4064" layer="1"/>
-<wire x1="25.118059375" y1="97.05594375" x2="25.20441875" y2="97.142303125" width="0.4064" layer="1"/>
 <wire x1="49.95" y1="45.75" x2="49.95" y2="51.420659375" width="1.4224" layer="1"/>
 <wire x1="49.95" y1="51.420659375" x2="50.60188125" y2="52.072540625" width="1.4224" layer="1"/>
 <wire x1="50.60188125" y1="52.072540625" x2="50.60188125" y2="52.8421625" width="1.4224" layer="1"/>
@@ -11462,7 +11498,9 @@ distributor Schukat</description>
 <via x="69.7357" y="85.7758" extent="1-16" drill="0.6" diameter="0.4064" shape="square"/>
 <wire x1="69.7357" y1="85.7758" x2="77.831259375" y2="85.7758" width="0.8128" layer="16"/>
 <wire x1="77.831259375" y1="85.7758" x2="77.91" y2="85.854540625" width="0.8128" layer="16"/>
-<wire x1="67.63511875" y1="59.438540625" x2="67.55638125" y2="59.281059375" width="0" layer="19" extent="16-16"/>
+<contactref element="JP4" pad="2"/>
+<wire x1="25.118059375" y1="97.05594375" x2="25.20441875" y2="97.142303125" width="0" layer="19" extent="1-1"/>
+<wire x1="67.55638125" y1="59.281059375" x2="67.63511875" y2="59.438540625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="TX">
 <contactref element="IC2" pad="3"/>
@@ -12217,8 +12255,12 @@ distributor Schukat</description>
 <wire x1="28.8645625" y1="94.228921875" x2="29.232859375" y2="94.24161875" width="0.4064" layer="1"/>
 <via x="29.232859375" y="94.24161875" extent="1-16" drill="0.6" diameter="0.4064" shape="square"/>
 <wire x1="29.232859375" y1="94.24161875" x2="61.429896875" y2="94.25431875" width="0.4064" layer="16"/>
-<wire x1="61.429896875" y1="94.25431875" x2="61.986159375" y2="94.81058125" width="0.4064" layer="16"/>
-<wire x1="61.986159375" y1="94.81058125" x2="80.551021875" y2="94.81058125" width="0.4064" layer="16"/>
+<wire x1="61.429896875" y1="94.25431875" x2="62.036959375" y2="94.693740625" width="0.4064" layer="16"/>
+<wire x1="62.036959375" y1="94.693740625" x2="72.72781875" y2="94.8055" width="0.4064" layer="16"/>
+<wire x1="72.72781875" y1="94.8055" x2="74.965559375" y2="97.043240625" width="0.4064" layer="16"/>
+<wire x1="74.965559375" y1="97.043240625" x2="78.78571875" y2="97.043240625" width="0.4064" layer="16"/>
+<wire x1="78.78571875" y1="97.043240625" x2="80.551021875" y2="95.2779375" width="0.4064" layer="16"/>
+<wire x1="80.551021875" y1="95.2779375" x2="80.551021875" y2="94.81058125" width="0.4064" layer="16"/>
 <wire x1="80.551021875" y1="94.81058125" x2="83.022440625" y2="97.282" width="0.4064" layer="16"/>
 <wire x1="83.022440625" y1="97.282" x2="84.917278125" y2="97.282" width="0.4064" layer="16"/>
 <wire x1="84.917278125" y1="97.282" x2="85.04681875" y2="97.152459375" width="0.4064" layer="16"/>
@@ -12294,8 +12336,8 @@ distributor Schukat</description>
 <wire x1="58.22441875" y1="97.396303125" x2="58.22441875" y2="95.719903125" width="0.4064" layer="1"/>
 <wire x1="58.22441875" y1="95.719903125" x2="58.92038125" y2="95.023940625" width="0.4064" layer="1"/>
 <wire x1="58.92038125" y1="95.023940625" x2="61.241940625" y2="95.023940625" width="0.4064" layer="1"/>
-<wire x1="61.241940625" y1="95.023940625" x2="61.62801875" y2="95.41001875" width="0.4064" layer="1"/>
-<wire x1="61.62801875" y1="95.41001875" x2="77.396340625" y2="95.41001875" width="0.4064" layer="1"/>
+<wire x1="61.241940625" y1="95.023940625" x2="61.892178125" y2="95.377" width="0.4064" layer="1"/>
+<wire x1="61.892178125" y1="95.377" x2="77.396340625" y2="95.41001875" width="0.4064" layer="1"/>
 <wire x1="77.396340625" y1="95.41001875" x2="79.29371875" y2="93.512640625" width="0.4064" layer="1"/>
 <via x="79.29371875" y="93.512640625" extent="1-16" drill="0.6" diameter="0.4064" shape="square"/>
 <wire x1="79.29371875" y1="93.512640625" x2="79.29371875" y2="93.3069" width="0.4064" layer="16"/>
@@ -12307,9 +12349,6 @@ distributor Schukat</description>
 <via x="65.432940625" y="89.69248125" extent="1-16" drill="0.6" diameter="0.4064" shape="square"/>
 <wire x1="65.432940625" y1="89.69248125" x2="65.432940625" y2="88.02838125" width="0.4064" layer="1"/>
 <wire x1="65.432940625" y1="88.02838125" x2="65.12091875" y2="87.716359375" width="0.4064" layer="1"/>
-</signal>
-<signal name="E">
-<contactref element="JP4" pad="6"/>
 </signal>
 <signal name="UIVCC">
 <contactref element="DONGLE" pad="1"/>
@@ -12342,8 +12381,8 @@ distributor Schukat</description>
 </signal>
 </signals>
 <errors>
-<approved hash="18,29,f252bab356c08a7d"/>
 <approved hash="18,29,6bc9b77ca50fede6"/>
+<approved hash="18,29,f252bab356c08a7d"/>
 <approved hash="18,29,9335dbc2c3fc5340"/>
 <approved hash="18,29,c762a31b799e5ba6"/>
 <approved hash="18,29,2e76de11d69584b0"/>
@@ -12358,10 +12397,10 @@ distributor Schukat</description>
 <approved hash="19,1,792a293fdb2cb9d6"/>
 <approved hash="19,1,45cf9dbef164a32c"/>
 <approved hash="19,1,ff0c1c5b3a1a5374"/>
-<approved hash="19,1,72d531728d87c46b"/>
 <approved hash="19,1,5230410586fe9d81"/>
-<approved hash="19,1,55c19d80095b1b22"/>
+<approved hash="19,1,72d531728d87c46b"/>
 <approved hash="19,1,ff020c648224ab7a"/>
+<approved hash="19,1,55c19d80095b1b22"/>
 <approved hash="19,1,f3a57c5b4bdb9827"/>
 <approved hash="19,1,4632c91471f8bc50"/>
 <approved hash="19,1,17528bdca70569b5"/>
