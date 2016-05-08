@@ -1,0 +1,65 @@
+(From OpenBuilds)
+2 qty 20x80 VSLOT 500mm Length (Y Rails)
+2 qty 20x20 VSLOT Between 500 and 530mm long - not critical (X Rails)
+10 qty Openbuilds Spacer Blocks (http://openbuildspartstore.com/spacer-block/)
+22 qty  OpenBuilds V-Wheels (Extreme PC would be even stiffer) http://openbuildspartstore.com/solid-v-wheel-kit/
+11 qty 1/4 Eccentric Spacers http://openbuildspartstore.com/eccentric-spacer/
+11 qty 1/4 Aluminum Spacers http://openbuildspartstore.com/aluminum-spacers/
+12 qty 35mm Aluminum Spacers (Space motors out so couplers doesnt interfere inside moveable area of carriages) http://openbuildspartstore.com/aluminum-spacers/
+
+(Z Axis)
+1 x complete C-Beam Kit 250mm (Or own design) for openbuilds
+
+
+(Leadscrews) (Note discussion on length on google plus)
+3 qty 1204 Ballnut
+3 qty 1204 Ballnut Mounting Block (like http://s.click.aliexpress.com/e/QvznIYRvZ)
+2 qty Ballscrew 505mm between insides (So total length = 505mm + turned down section for shaft coupler + turned down and threaded section for restraining)
+1 qty Ballscrew 530mm between insides  (So total length = 530mm + turned down section for shaft coupler + turned down and threaded section for restraining) 
+
+Bolts and Nuts and Screws:
+(Clamp Bed)
+10 qty x Countersink Capscrew:  M8x30mm (Side rows - also clamps on sides)
+10 qty x Countersink Capscrew:  M8x25mm  (two middle rows torsion box)
+40 qty x M8 Nut (one between clamp bed and one below base top)
+(NB Note: If you want to space the two by more than one nut height - account for it with spacers of some sort + extra longer bolts)
+
+(Base bottom)
+10 qty x Capscrew: M8x16mm (hold base plate to sides on bottom)
+
+(Sides)
+40 qty x M5 T Nut Drop In 
+40 qty x M5 Capscrew (8 or 10mm long - to pass through the side and into the drop T nut to hold 8020 to sides)
+8 qty x M5 x 16mm capscrews (for F608Z Clamp Plates)
+8 qty x Nyloc M5 Nut (for F608Z Clamp Plates)
+2 qty x F608ZZ Bearing  (or other ballscrew retention design)
+2 qty x Shaft Coupler (6.35mm -> 8mm for as designed or better X type) (for example http://s.click.aliexpress.com/e/QR3BQ7q3v)
+8 qty x M5 x 50mm capscrew  (to hold motor onto side)
+8 qty x M5 Nyloc Nut (to hold motor onto side)
+
+(Gantry)
+12 qty x M5 T Nut Drop In 
+12 qty x M5 Capscrew (8 or 10mm long - to pass through the side and into the drop T nut to hold 2020 to sides)
+4 qty x M5 x 16mm capscrews (for F608Z Clamp Plate)
+4 qty Nyloc M5 Nut (for F608Z Clamp Plate)
+1 qty F608ZZ Bearing  (or other ballscrew retention design)
+1 qty Shaft Coupler (6.35mm -> 8mm for as designed or better X type) (for example http://s.click.aliexpress.com/e/QR3BQ7q3v)
+4 qty x M5 x 50mm capscrew  (to hold motor)
+4 qty x M5 Nyloc Nut (to hold motor)
+
+(Cable Chain Tray)
+4 qty x M5 x 16mm Capscrew (Y Cable Chain tray)
+4 qty x M5 Nyloc Nut (Y Cable Chain tray)
+1 qty M3 x 10mm (hold cable chain tab to gantry)
+1 qty M3 Square Nut(hold cable chain tab to gantry)
+
+(VWheels)
+22 qty x M5 x40mm bolts with flat head (like the ones sold by Openbuilds) for the VWheels
+
+(Ballnut mounts)
+12 qty x  5x 12mm capscrew (Mount ballnut blocks to carriages)
+18 qty x M4 x 16mm capscrew (Mount ballnut to block)  
+3 qty x M6 x 14mm Capscrew for threading into ends of ballscrew)
+
+(Cable Chains) 
++- 3 meter of cable chain:  25mm wide
